@@ -6,8 +6,11 @@
 </head>
 
 <body>
+<?php 
+echo "<h2>Antraštė</h2>";
+?>
 
-<h2>Antraštė</h2>
+
 
 <div id="id01" class="modal">
   
@@ -22,8 +25,7 @@
         
       <button type="submit">Login</button>          
   </form>
-  <?php auto_copyright("2018");?>
-  <?php echo . date("Y.m.d") . ;?> 
+  
 
 </div>
 
@@ -31,6 +33,9 @@
 // Get the modal
 var modal = document.getElementById('id01');
 </script>
-
+<div><center>
+&copy; 2010-<?php echo date("Y");?>
+</center>
+</div>
 </body>
 </html>
